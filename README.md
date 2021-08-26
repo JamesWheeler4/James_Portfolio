@@ -9,7 +9,7 @@ Portfolio showcasing projects and techniques used while expanding knowledge in d
 * fasdkjlh ashdfjklawen asdhflkjash sadhkfehwlajk ndsalfkjn
 * asdhflkewjahnfmnsdabf;jk d asfhkljawe  asdjfhlaewh
 * images aren't going to be in a repository
-* Need to create special image folder  
+* Need to create special image folder, attached them to another README.md so that they can be linked to this page
 
 # This is a picture of Blacksad because it is on my desktop
 ![Portait of Blacksad](Blacksad.jpg)
