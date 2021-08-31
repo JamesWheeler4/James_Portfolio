@@ -11,7 +11,7 @@ As a final project for completing the Google Data Analytics Certificate, I was t
 3. The deliverable that I completed for this project was in the form of a *[Google slides presentation](https://docs.google.com/presentation/d/17OLot-w2_zf2OD6mtz9Lg54_LiBtoin-LBGneXZw2ck/edit?usp=sharinghttps://docs.google.com/presentation/d/17OLot-w2_zf2OD6mtz9Lg54_LiBtoin-LBGneXZw2ck/edit?usp=sharing)*. In this presentation I briefly explain the business tasks and the dataset used, being sure to mention some of the context of the dataset. Next, I used visualizations and talking points to explain my findings. Finally I concluded with a summary and suggestions for Bellabeats moving forward.
 4. Here is an example of the final visualization that I used to explain when the participants were most active. The colors were pulled directly from the Bellabeats website. 
 
-![](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Images/Total%20Steps%20per%20Hours.png)
+![Image](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Images/Total%20Steps%20per%20Hours.png)
 
 This project, being my first, held a lot of learning lessons. I was proud of the end product but not so much the process in which I got there. To remedy this, I chose to redo the processing and analysis portion of the project with Python and Tableau.
 
