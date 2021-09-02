@@ -1,6 +1,6 @@
 # Portfolio
 ## James Wheeler 
-**[Resume](https://docs.google.com/document/d/1mprYOJ1X_Aloqlt6NZSfSS-6pPLZ3oXCMILtC9bM0UE/edit?usp=sharing)** - 
+**[Resume](https://docs.google.com/document/d/1pCTnupASnwYF3G4kDYsw9GDeExo4WH1TxFwKv5RCZyY/edit?usp=sharing)** - 
 **[LinkedIn](https://www.linkedin.com/in/james-wheeler-85115b215/)** - **[Certification](https://coursera.org/share/2ab12b15d95d4fe4b8a58abb081c97d8)**
 
 ## Project 1: Case study for Bellabeat
