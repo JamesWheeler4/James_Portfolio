@@ -41,3 +41,6 @@ https://www.coursera.org/account/accomplishments/certificate/WUH4D5767JUQ)
 
 3. [Introduction to Relational Database and SQL](
 https://www.coursera.org/account/accomplishments/certificate/XDMZTUBPHVW5)
+
+4. [Intermediate Relational Database and SQL](
+https://www.coursera.org/account/accomplishments/certificate/9RNLUCLS9KDT)
