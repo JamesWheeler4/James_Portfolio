@@ -22,3 +22,24 @@ Having worked with this data before, the goal of this project was to see if I co
 
 ## Project 3: (Current) SQL, Tableau, and Geographical Data
 My plan for this project is to work with SQL and navigate through larger data sets before constructing a dashboard to show my information. I would like to work with geographical data in this project. 
+
+
+### Courses Completed
+1. [Google Data Analytics](
+https://www.coursera.org/account/accomplishments/specialization/certificate/X79PFW94QH2W)
+* Foundations: Data, Data, Everywhere
+* Ask Questions to Make Data-Driven Decisions
+* Prepare Data for Exploration
+* Process Data from Dirty to Clean
+* Analyze Data to Answer Questions
+* Share Data Through the Art of Visualization
+* Data Analysis with R Programming
+* Google Data Analytics Captstone: Complete a Case Study
+
+2. [Exploratory Data Analysis With Python and Pandas](
+https://www.coursera.org/account/accomplishments/certificate/WUH4D5767JUQ)
+
+3. [Introduction to Relational Database and SQL](
+https://www.coursera.org/account/accomplishments/certificate/XDMZTUBPHVW5)
+
+4. 
