@@ -119,26 +119,6 @@ VALUES
     '005', 24856, '2021-09-20'
     );
 
-### Fixing duplication mistake
-
-Duplicated harvest multiple times
-
-DELETE FROM harvest
-
-INSERT INTO cost (
-cost_crop, cost_fixed, cost_harvest_hour
-)
-VALUES
-(
-	'tall_fescue' , 500000, 200000
-    ),(
-    'rye', 400100, 200100
-    ),(
-    'garlic', 1200000, 250000
-    ),(
-    'hazelnut', 200000, 50000
-    );
-    
 INSERT INTO acres  (
 acres_crop, acres_completed, acres_date
 )
@@ -161,6 +141,26 @@ VALUES
     11, 0, 0, 0, '2021-09-19'
     ),(
     0, 8, 0, 0, '2021-09-20'
+    );
+
+### Fixing duplication mistake
+
+Duplicated harvest multiple times
+
+DELETE FROM harvest
+
+INSERT INTO cost (
+cost_crop, cost_fixed, cost_harvest_hour
+)
+VALUES
+(
+	'tall_fescue' , 500000, 200000
+    ),(
+    'rye', 400100, 200100
+    ),(
+    'garlic', 1200000, 250000
+    ),(
+    'hazelnut', 200000, 50000
     );
 
 ### Recreating hours table
@@ -243,3 +243,58 @@ VALUES
     ),(
     'hazelnut', 19500, 1500
     );
+
+### Adding primary and foreign keys
+-- Making all of my PK and FK to link my tables
+
+-- PK field_info.field_id		FK harvest.harvest_field_id
+-- PK crop.crop				FK field_info.field_crop, cost.cost_crop, acres.acres_crop
+-- PK hours.hours_date			FK harvest.harvest_date, acres.acres_date, team.team_date
+
+ALTER TABLE field_info
+ADD CONSTRAINT PK_field_info PRIMARY KEY (field_id);
+
+ALTER TABLE crop
+ADD CONSTRAINT PK_crop PRIMARY KEY (crop);
+
+ALTER TABLE hours
+ADD CONSTRAINT PK_hours PRIMARY KEY (hours_date);
+
+ALTER TABLE harvest
+ADD CONSTRAINT FK_harvest_field_id
+FOREIGN KEY (harvest_field_id) REFERENCES field_info(field_id);
+
+ALTER TABLE field_info
+ADD CONSTRAINT FK_field_crop
+FOREIGN KEY (field_crop) REFERENCES crop(crop);
+
+ALTER TABLE cost
+ADD CONSTRAINT FK_cost_crop
+FOREIGN KEY (cost_crop) REFERENCES crop(crop);
+
+ALTER TABLE acres
+ADD CONSTRAINT FK_acres_crop
+FOREIGN KEY (acres_crop) REFERENCES crop(crop);
+
+ALTER TABLE harvest
+ADD CONSTRAINT FK_harvest_date
+FOREIGN KEY (harvest_date) REFERENCES hours(hours_date);
+
+ALTER TABLE acres
+ADD CONSTRAINT FK_acres_date
+FOREIGN KEY (acres_date) REFERENCES hours(hours_date);
+
+ALTER TABLE team
+ADD CONSTRAINT FK_team_date
+FOREIGN KEY (team_date) REFERENCES hours(hours_date);
+
+### Fixing table formatting
+Tables have differing format
+
+UPDATE field_info
+SET
+	field_crop = REPLACE(field_crop, 'Rye', 'rye');
+
+UPDATE field_info
+SET
+	field_crop = REPLACE(field_crop, 'Tall Fescue', 'tall_fescue');
