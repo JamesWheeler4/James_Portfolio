@@ -20,13 +20,15 @@ Having a foundation in R, moving to Python was not too challenging. Also having 
 
 Having worked with this data before, the goal of this project was to see if I could find and present the same findings in a more professional way. I am proud of the end product, it has given me inspiration for project 3.
 
-## Project 3: Harvest Project (current)
+## Project 3: Harvest Project
 Currently I am working on a product that will allow farmers to track multiple metrics with ease. My plan is to construct a relational database with MySQL that will flow into a Tableau dashboard. Though not currently part of this project, I am formatting the database to allow simple data entry by employees in different roles. 
 
 1. I started by making a *[plan](https://docs.google.com/document/d/1YyngyRyTgFPxvGVLCq6RIbK8hzeYZ-8hVMB1OoWBJCQ/edit?usp=sharing)* for what I wanted available of the dashboard.  Next I organized the tables that would make up my database and *[visualized](https://docs.google.com/spreadsheets/d/1PRz3RgTxUNtSMZVTSvkq5MRsYyyzI8XInMlv0Mt_sxc/edit?usp=sharing)* how they would connect to one another. Having a plan, I was ready to move forward to MySQL and start building the database.
 2. Establishing the database for the *[MySQL Project](harvest_project_mysql.md)* went smoothly. I entered test data so I could see the functions of the relations once completed. Next connected the tables via primary keys and foreign keys.
 3. I began writing and testing *[queries](https://docs.google.com/document/d/1dWfXSUgsX9NtvqmmeN4tWFAJD69o_n2yAJJpXa8sw44/edit?usp=sharing)* to output the metrics that will be used in Tableau. Once confirming values from direct SQL outputs, I started to translate these metrics to calculated value equations in Tableau. The outcome of these can be seen in this *[visualization](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Images/Harvest_dashboard_2021.PNG)* which is updated live from the'harvest_project' MySQL database that I had created.
 4. I will not currently be moving forward with the web development necessary to build the front end data entry of this project. I believe that I've structured the database to easily accept the addition of simple data entry. 
+
+## Project 4: Unannounced (current)
 
 ### Courses Completed
 1. [Google Data Analytics](
