@@ -27,7 +27,6 @@ Currently I am working on a product that will allow farmers to track multiple me
 2. Establishing the database for the *[MySQL Project](harvest_project_mysql.md)* went smoothly. I entered test data so I could see the functions of the relations once completed. Next connected the tables via primary keys and foreign keys.
 3. I began writing and testing *[queries](https://docs.google.com/document/d/1dWfXSUgsX9NtvqmmeN4tWFAJD69o_n2yAJJpXa8sw44/edit?usp=sharing)* to output the metrics that will be used in Tableau.
 
-![](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Images/Harvest_dashboard_2021.PNG)
 <img src="https://github.com/JamesWheeler4/James_Portfolio/blob/main/Images/Harvest_dashboard_2021.PNG" width="500" height="350">
 
 ### Courses Completed
