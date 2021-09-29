@@ -28,6 +28,7 @@ Currently I am working on a product that will allow farmers to track multiple me
 3. I began writing and testing *[queries](https://docs.google.com/document/d/1dWfXSUgsX9NtvqmmeN4tWFAJD69o_n2yAJJpXa8sw44/edit?usp=sharing)* to output the metrics that will be used in Tableau.
 
 ![](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Images/Harvest_dashboard_2021.PNG)
+<img src="https://github.com/JamesWheeler4/James_Portfolio/blob/main/Images/Harvest_dashboard_2021.PNG" width="500" height="350">
 
 ### Courses Completed
 1. [Google Data Analytics](
