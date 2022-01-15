@@ -6,11 +6,12 @@
 ##### Projects here will be listed in reverse chronological order
 
 
-## Project 4: Exploring Covid Data with SQL
+## Project 4: Exploring Covid Data with SQL (Plan to revisit)
 The goal of this project was to practice using SQL while gaining understanding of what Covid was doing on a global scale. 
 
 1. My original intent was to use MySQL to run all of my exploratory queries. The importing of my covid.csv was moving at 20 entries a minute and I had 150,000 entries. I found that there are a group of packages that allow you to run SQL queries in R. Using _queryparser_ and _tidyquery_ I was able to run my queries.
-2. The exploration of the data can be found *[here}(
+2. The exploration of the data can be found *[here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/covid_project_final_20220113.pdf)*. I summarize the findings that interested me at the bottom of the report. The reliability of the data was seen to be mediocre. It would make sense that during a pandemic, there would likely be challenges with collecting universally formatted data on a global scale.
+3. In the future I would like to graph some of the insights I've found. I'm particularly interested in seeing what the pattern of daily cases to daily deaths looks like. How does the relationship between the slope of an infection spike relate to the slope of the following death spike? How much does this relationship vary between variants? All things I'm curious about!
 
 ## Project 3: Harvest Project
 The goal of this project was to create a product that will allow farmers to track multiple metrics with ease. My plan is to construct a relational database with MySQL that will flow into a Tableau dashboard. Though not currently part of this project, I am formatting the database to allow simple data entry by employees in different roles. 
