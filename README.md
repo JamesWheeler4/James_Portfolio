@@ -39,8 +39,7 @@ As a final project for completing the Google Data Analytics Certificate, I was t
 This project, being my first, held a lot of learning lessons. I was proud of the end product but not so much the process in which I got there. To remedy this, I chose to redo the processing and analysis portion of the project with Python and Tableau.
 
 ### Courses Completed
-1. [Google Data Analytics](
-https://www.coursera.org/account/accomplishments/specialization/certificate/X79PFW94QH2W)
+1. [Google Data Analytics](https://coursera.org/share/2ab12b15d95d4fe4b8a58abb081c97d8)
 * Foundations: Data, Data, Everywhere
 * Ask Questions to Make Data-Driven Decisions
 * Prepare Data for Exploration
@@ -50,11 +49,16 @@ https://www.coursera.org/account/accomplishments/specialization/certificate/X79P
 * Data Analysis with R Programming
 * Google Data Analytics Captstone: Complete a Case Study
 
-2. [Exploratory Data Analysis With Python and Pandas](
+2. Python for Everybody via University of Michigan
+* [Programming for Everybody (Getting Started with Python)](https://coursera.org/share/69ad88d8c472cff0430d9da8401a2cf7)
+* [Python Data Structures](https://coursera.org/share/9107466a97373be0895126fc96c63ed4)
+* Using Python to Access Web Data (In progress)
+
+3. [Exploratory Data Analysis With Python and Pandas](
 https://www.coursera.org/account/accomplishments/certificate/WUH4D5767JUQ)
 
-3. [Introduction to Relational Database and SQL](
+4. [Introduction to Relational Database and SQL](
 https://www.coursera.org/account/accomplishments/certificate/XDMZTUBPHVW5)
 
-4. [Intermediate Relational Database and SQL](
+5. [Intermediate Relational Database and SQL](
 https://www.coursera.org/account/accomplishments/certificate/9RNLUCLS9KDT)
