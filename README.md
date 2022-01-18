@@ -1,7 +1,7 @@
 # Portfolio
 ## James Wheeler 
-**[Resume](https://docs.google.com/document/d/1pCTnupASnwYF3G4kDYsw9GDeExo4WH1TxFwKv5RCZyY/edit?usp=sharing)** - 
-**[LinkedIn](https://www.linkedin.com/in/james-wheeler-85115b215/)** - **[Certification](https://coursera.org/share/2ab12b15d95d4fe4b8a58abb081c97d8)**
+**[Resume](https://docs.google.com/document/d/1KZVGh-1VK24UmyeQ2OWw1RhE-p72onsg2fxrD2kxV9k/edit?usp=sharing)** - 
+**[LinkedIn](https://www.linkedin.com/in/james-wheeler-85115b215/)**
 
 ##### Projects here will be listed in reverse chronological order
 
@@ -38,7 +38,7 @@ As a final project for completing the Google Data Analytics Certificate, I was t
 
 This project, being my first, held a lot of learning lessons. I was proud of the end product but not so much the process in which I got there. To remedy this, I chose to redo the processing and analysis portion of the project with Python and Tableau.
 
-### Courses Completed
+### Certifications Completed
 1. [Google Data Analytics](https://coursera.org/share/2ab12b15d95d4fe4b8a58abb081c97d8)
 * Foundations: Data, Data, Everywhere
 * Ask Questions to Make Data-Driven Decisions
@@ -54,11 +54,10 @@ This project, being my first, held a lot of learning lessons. I was proud of the
 * [Python Data Structures](https://coursera.org/share/9107466a97373be0895126fc96c63ed4)
 * Using Python to Access Web Data (In progress)
 
-3. [Exploratory Data Analysis With Python and Pandas](
-https://www.coursera.org/account/accomplishments/certificate/WUH4D5767JUQ)
+### Courses Completed
 
-4. [Introduction to Relational Database and SQL](
-https://www.coursera.org/account/accomplishments/certificate/XDMZTUBPHVW5)
+1. [Exploratory Data Analysis With Python and Pandas](https://coursera.org/share/6ea3066fddf24857dfb9311d40dcaa64)
 
-5. [Intermediate Relational Database and SQL](
-https://www.coursera.org/account/accomplishments/certificate/9RNLUCLS9KDT)
+2. [Introduction to Relational Database and SQL](https://coursera.org/share/7afa2e3edff48e22a268adb858b1c918)
+
+3. [Intermediate Relational Database and SQL](https://coursera.org/share/bd63629d0f008caf04f7c020c543e31b)
