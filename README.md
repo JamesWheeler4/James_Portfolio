@@ -38,6 +38,8 @@ As a final project for completing the Google Data Analytics Certificate, I was t
 
 This project, being my first, held a lot of learning lessons. I was proud of the end product but not so much the process in which I got there. To remedy this, I chose to redo the processing and analysis portion of the project with Python and Tableau.
 
+[link to archived projects](../ARCHIVES)
+
 ### Certifications Completed
 1. [Google Data Analytics](https://coursera.org/share/2ab12b15d95d4fe4b8a58abb081c97d8)
 * Foundations: Data, Data, Everywhere
