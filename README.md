@@ -51,10 +51,11 @@ This project, being my first, held a lot of learning lessons. I was proud of the
 * Data Analysis with R Programming
 * Google Data Analytics Captstone: Complete a Case Study
 
-2. Python for Everybody via University of Michigan
+2. Python for Everybody Specialization via University of Michigan
 * [Programming for Everybody (Getting Started with Python)](https://coursera.org/share/69ad88d8c472cff0430d9da8401a2cf7)
 * [Python Data Structures](https://coursera.org/share/9107466a97373be0895126fc96c63ed4)
-* Using Python to Access Web Data (In progress)
+* [Using Python to Access Web Data](https://coursera.org/share/e9e2b286bfd8906ef01e23955fba0d88)
+* Using Databases with Python (In Progress)
 
 ### Courses Completed
 
