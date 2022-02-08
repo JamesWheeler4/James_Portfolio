@@ -5,6 +5,18 @@
 
 ##### Projects here will be listed in reverse chronological order
 
+## Project 5: Track and Field Scouting Tool
+The goal of this project is to create scouting reports for track and field teams using Python automation. As a track and field athlete in community college, I was asked by the coach to work on organizing spreadsheets of possible future recruits. I was tasked with searching for athletes results on *athletic.net* as well as the schools they went to. Looking back, this was a task that the coach would have done had I not offered my skills with excel. It is my hope to offer this finished tool specifically to colleges with limited funding. I have seen first hand how much effort it takes as an underfunded coach, this project will lessen that work load.
+
+1. Web Scraping
+* The first step of this project was to identify and extract the relevant data. This was done by inspecting *athletic.net* and learning the html formatting that is used to organize the data. 
+* Initially the roadblock that was in place was the requirement of having to log in to access any of the relevant data. For this I turned to *Selenium*. Using key inputs I was able to enter the website and navigate to the desired webpages.
+* Next was the issue of extracting the data in a sorted manner. All of the pertinent information is tagged as anchor links with limited differentiation. To work around this, I passed on using *bs4* and elected to extract the whole page, parse it as a string using regex.
+* Through this method I was able to create lists containing event, place, grade/age, athleteId, name, mark, school/club, and schoolId/clubId.
+* This was tested across multiple districts and states, checking for any variance in the website, event type, or anything unforeseen.
+
+2. Data Storage and Processing
+* Next I will store this data using SQL and write a program to compare the high school data to college data, beginning the report process.
 
 ## Project 4: Exploring Covid Data with SQL (Plan to revisit)
 The goal of this project was to practice using SQL while gaining understanding of what Covid was doing on a global scale. 
