@@ -9,23 +9,6 @@
 ### 41 hours as of 2/24/2022
 The goal of this project is to create scouting reports for track and field teams using Python automation. As a track and field athlete in community college, I was asked by the coach to work on organizing spreadsheets of possible future recruits. I was tasked with searching for athletes results on *athletic.net* as well as the schools they went to. Looking back, this was a task that the coach would have done had I not offered my skills with excel. It is my hope to offer this finished tool specifically to colleges with limited funding. I have seen first hand how much effort it takes as an underfunded coach, this project will lessen that work load.
 
-1. Web Scraping
-* The first step of this project was to identify and extract the relevant data. This was done by inspecting *athletic.net* and learning the html formatting that is used to organize the data. 
-* Initially the roadblock that was in place was the requirement of having to log in to access any of the relevant data. For this I turned to *Selenium*. Using key inputs I was able to enter the website and navigate to the desired webpages.
-* Next was the issue of extracting the data in a sorted manner. All of the pertinent information is tagged as anchor links with limited differentiation. To work around this, I passed on using *bs4* and elected to extract the whole page, parse it as a string using regex.
-* Through this method I was able to create lists containing event, place, grade/age, athleteId, name, mark, school/club, and schoolId/clubId.
-* This was tested across multiple districts and states, checking for any variance in the website, event type, or anything unforeseen.
-* I created another gathering function that would parse through a track meet and pull the results. This varied from the first function in that the first pulled all information from one webpage (for each state). This function pulled a small amount of data from over 15 webpages per gender per meet. 
-
-2. Data Storage and Processing
-* Before storing the data, alterations needed to be made to smooth out future analysis and organization. This was done by normalizing terminology (event names) and units of measurements (all to seconds and meters to hundredths of feet) between high school and college. Additionally to determine ascending or descending rankings, the field events (highest wins) were separated from track events (lowest wins) using a sorting indicator.
-* Now that necessary comparison data was collected, I wrote each high school state, gender, and event type (track or field) to its own csv. These were placed in gendered folders before being globbed and appended together. I arranged and renamed the high school columns to the corresponding college format before appending the college meet results onto the high school data set.
-* Once everything was combined and properly formatted, I created a ranking and scoring function that took the top ten athletes in each event scoring the top eight as is done in a traditional championship meet. From this ranking function I returned both the top ten as well as the overall rankings for all levels gathered. 
-
-3. Analysis
-* Initial evaluation of the data showed very clearly that comparing community college results to top ten highschoolers per state was not a reasonable comparison. I will recreate the gathering with more samples and more compatible athletes. 
-
-
 ## Project 4: Exploring Covid Data with SQL (Plan to revisit)
 The goal of this project was to practice using SQL while gaining understanding of what Covid was doing on a global scale. 
 
@@ -33,13 +16,8 @@ The goal of this project was to practice using SQL while gaining understanding o
 2. The exploration of the data can be found *[here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/covid_project_final_20220113.pdf)*. I summarize the findings that interested me at the bottom of the report. The reliability of the data was seen to be mediocre. It would make sense that during a pandemic, there would likely be challenges with collecting universally formatted data on a global scale.
 3. In the future I would like to graph some of the insights I've found. I'm particularly interested in seeing what the pattern of daily cases to daily deaths looks like. How does the relationship between the slope of an infection spike relate to the slope of the following death spike? How much does this relationship vary between variants? All things I'm curious about!
 
-## Project 3: Harvest Project
-The goal of this project was to create a product that will allow farmers to track multiple metrics with ease. My plan is to construct a relational database with MySQL that will flow into a Tableau dashboard. Though not currently part of this project, I am formatting the database to allow simple data entry by employees in different roles. 
-
-1. I started by making a *[plan](https://docs.google.com/document/d/1YyngyRyTgFPxvGVLCq6RIbK8hzeYZ-8hVMB1OoWBJCQ/edit?usp=sharing)* for what I wanted available of the dashboard.  Next I organized the tables that would make up my database and *[visualized](https://docs.google.com/spreadsheets/d/1PRz3RgTxUNtSMZVTSvkq5MRsYyyzI8XInMlv0Mt_sxc/edit?usp=sharing)* how they would connect to one another. Having a plan, I was ready to move forward to MySQL and start building the database.
-2. Establishing the database for the *[MySQL Project](harvest_project_mysql.md)* went smoothly. I entered test data so I could see the functions of the relations once completed. Next connected the tables via primary keys and foreign keys.
-3. I began writing and testing *[queries](https://docs.google.com/document/d/1dWfXSUgsX9NtvqmmeN4tWFAJD69o_n2yAJJpXa8sw44/edit?usp=sharing)* to output the metrics that will be used in Tableau. Once confirming values from direct SQL outputs, I started to translate these metrics to calculated value equations in Tableau. The outcome of these can be seen in this *[visualization](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Images/Harvest_dashboard_2021.PNG)* which is updated live from the'harvest_project' MySQL database that I had created.
-4. I will not currently be moving forward with the web development necessary to build the front end data entry of this project. I believe that I've structured the database to easily accept the addition of simple data entry. 
+## [Project 3: Harvest Project](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_3%20Harvest%20tracking%20tool)
+The goal of this project was to create a product that will allow farmers to track multiple metrics with ease. My plan is to construct a relational database with MySQL that will flow into a Tableau dashboard. Though not currently part of this project, I am formatting the database to allow simple data entry by employees in different roles.
 
 ## Project 2: Revising Project 1 with Python and Tableau
 Having a foundation in R, moving to Python was not too challenging. Also having completed a project already, it was much easier to plan the trajectory of my data processing.
