@@ -19,8 +19,8 @@ def testAPpros(queries):
 def login(queries):
     PATH = r"C:\Program Files (x86)\chromedriver.exe"
     driver = webdriver.Chrome(PATH)
-    email = 'webotis@gmail.com'
-    password = 'Bqm4P8XrqwWH3uz'
+    email = 'XXXXXXX@gmail.com'
+    password = 'XXXXXXX'
 
     # Login process
     driver.get("https://www.athletic.net/account/login")
