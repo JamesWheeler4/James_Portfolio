@@ -1,7 +1,8 @@
 # Portfolio
 ## James Wheeler 
 **[Resume](https://docs.google.com/document/d/1KZVGh-1VK24UmyeQ2OWw1RhE-p72onsg2fxrD2kxV9k/edit?usp=sharing)** - 
-**[LinkedIn](https://www.linkedin.com/in/james-wheeler-85115b215/)**
+**[LinkedIn](https://www.linkedin.com/in/james-wheeler-85115b215/)** - 
+**[Certifications/Courses](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Certificates)**
 
 ##### Projects here will be listed in reverse chronological order
 
@@ -15,46 +16,8 @@ The goal of this project was to use SQL to gain understanding of what Covid was 
 ## [Project 3: Harvest Project](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_3%20Harvest%20tracking%20tool)
 The goal of this project was to create a product that will allow farmers to track multiple metrics with ease. My plan is to construct a relational database with MySQL that will flow into a Tableau dashboard. Though not currently part of this project, I am formatting the database to allow simple data entry by employees in different roles.
 
-## Project 2: Revising Project 1 with Python and Tableau
+## Project 2: [Revising Project 1 with Python and Tableau](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_2%20Revisit%20Bellabeat%20with%20Python%20and%20Tableau)
 Having a foundation in R, moving to Python was not too challenging. Also having completed a project already, it was much easier to plan the trajectory of my data processing.
 
-1. I started in Jupyter Notebooks by setting up my environment. I then uploaded, organized, and cleaned my data. Using Seaborn, I used pairplots and heatmaps to prospect for connections within my data. This entire process can be seen in this *[notebook](https://www.kaggle.com/jameswheelerda/bellabeatv2-083021)*.
-2. Next I turned to Tableau. After uploading my data, I made multiple graphs depicting the relation of nightly sleep to minutes spent sedentary and in varied levels of activity. Once those were complete I created corresponding correlation coefficients and filter sets. I added in total steps relative to nightly sleep as well. Finally I put it all together in a dashboard that will show the relational change between the data sets. Here is the *[dashboard](https://public.tableau.com/app/profile/james.wheeler2559/viz/Bellabeat083021/EffectsofSleeponDailyMovement_1)*.
-
-Having worked with this data before, the goal of this project was to see if I could find and present the same findings in a more professional way. I am proud of the end product, it has given me inspiration for project 3.
-
-## Project 1: Case study for Bellabeat
+## [Project 1: Case study for Bellabeat](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_1%20Case%20study%20for%20Bellabeat)
 As a final project for completing the Google Data Analytics Certificate, I was tasked with completing a case study. Having history within the fitness industry I chose to work with Bellabeat, a wellness company focused on fitness wearables. The project went as follows.
-
-1. I was given a list of tasks to complete, requests from my primary stakeholders, and a data set to use. I condensed all of the given information into a mock *[project proposal](https://docs.google.com/document/d/1ToHGRn7pGlIVNgqHWGRJtbXiU3p2nxm36pNbNm4VwLQ/edit?usp=sharing)*.
-2. Moving the dataset into Rstudio where I processed and started to look into the data. The notebook of my journey through the data can be found in this *[notebook](https://www.kaggle.com/jameswheelerda/bellabeat-capstone-080321)*. Summatively, I found correlations between time spent sleeping and time sedentary as well as a distribution of when the participants were most active and the corresponding activity intensity.
-3. The deliverable that I completed for this project was in the form of a *[Google slides presentation](https://docs.google.com/presentation/d/17OLot-w2_zf2OD6mtz9Lg54_LiBtoin-LBGneXZw2ck/edit?usp=sharinghttps://docs.google.com/presentation/d/17OLot-w2_zf2OD6mtz9Lg54_LiBtoin-LBGneXZw2ck/edit?usp=sharing)*. In this presentation I briefly explain the business tasks and the dataset used, being sure to mention some of the context of the dataset. Next, I used visualizations and talking points to explain my findings. Finally I concluded with a summary and suggestions for Bellabeats moving forward.
-
-This project, being my first, held a lot of learning lessons. I was proud of the end product but not so much the process in which I got there. To remedy this, I chose to redo the processing and analysis portion of the project with Python and Tableau.
-
-
-
-### Certifications Completed
-1. [Google Data Analytics](https://coursera.org/share/2ab12b15d95d4fe4b8a58abb081c97d8)
-* Foundations: Data, Data, Everywhere
-* Ask Questions to Make Data-Driven Decisions
-* Prepare Data for Exploration
-* Process Data from Dirty to Clean
-* Analyze Data to Answer Questions
-* Share Data Through the Art of Visualization
-* Data Analysis with R Programming
-* Google Data Analytics Captstone: Complete a Case Study
-
-2. Python for Everybody Specialization via University of Michigan
-* [Programming for Everybody (Getting Started with Python)](https://coursera.org/share/69ad88d8c472cff0430d9da8401a2cf7)
-* [Python Data Structures](https://coursera.org/share/9107466a97373be0895126fc96c63ed4)
-* [Using Python to Access Web Data](https://coursera.org/share/e9e2b286bfd8906ef01e23955fba0d88)
-* Using Databases with Python (In Progress)
-
-### Courses Completed
-
-1. [Exploratory Data Analysis With Python and Pandas](https://coursera.org/share/6ea3066fddf24857dfb9311d40dcaa64)
-
-2. [Introduction to Relational Database and SQL](https://coursera.org/share/7afa2e3edff48e22a268adb858b1c918)
-
-3. [Intermediate Relational Database and SQL](https://coursera.org/share/bd63629d0f008caf04f7c020c543e31b)
