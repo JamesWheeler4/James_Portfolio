@@ -5,7 +5,7 @@
 
 ##### Projects here will be listed in reverse chronological order
 
-## Project 5: Track and Field Scouting Tool
+## [Project 5: Track and Field Scouting Tool](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_5%20Track%20and%20Field%20scouting%20tool)
 ### 41 hours as of 2/24/2022
 The goal of this project is to create scouting reports for track and field teams using Python automation. As a track and field athlete in community college, I was asked by the coach to work on organizing spreadsheets of possible future recruits. I was tasked with searching for athletes results on *athletic.net* as well as the schools they went to. Looking back, this was a task that the coach would have done had I not offered my skills with excel. It is my hope to offer this finished tool specifically to colleges with limited funding. I have seen first hand how much effort it takes as an underfunded coach, this project will lessen that work load.
 
