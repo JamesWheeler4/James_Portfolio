@@ -1,5 +1,5 @@
-# Portfolio
-## James Wheeler 
+# James Wheeler Portfolio
+
 **[Resume](https://docs.google.com/document/d/1KZVGh-1VK24UmyeQ2OWw1RhE-p72onsg2fxrD2kxV9k/edit?usp=sharing)** - 
 **[LinkedIn](https://www.linkedin.com/in/james-wheeler-85115b215/)** - 
 **[Certifications/Courses](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Certificates)**
