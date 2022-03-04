@@ -9,12 +9,8 @@
 ### 41 hours as of 2/24/2022
 The goal of this project is to create scouting reports for track and field teams using Python automation. As a track and field athlete in community college, I was asked by the coach to work on organizing spreadsheets of possible future recruits. I was tasked with searching for athletes results on *athletic.net* as well as the schools they went to. Looking back, this was a task that the coach would have done had I not offered my skills with excel. It is my hope to offer this finished tool specifically to colleges with limited funding. I have seen first hand how much effort it takes as an underfunded coach, this project will lessen that work load.
 
-## Project 4: Exploring Covid Data with SQL (Plan to revisit)
-The goal of this project was to practice using SQL while gaining understanding of what Covid was doing on a global scale. 
-
-1. My original intent was to use MySQL to run all of my exploratory queries. The importing of my covid.csv was moving at 20 entries a minute and I had 150,000 entries. I found that there are a group of packages that allow you to run SQL queries in R. Using _queryparser_ and _tidyquery_ I was able to run my queries.
-2. The exploration of the data can be found *[here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/covid_project_final_20220113.pdf)*. I summarize the findings that interested me at the bottom of the report. The reliability of the data was seen to be mediocre. It would make sense that during a pandemic, there would likely be challenges with collecting universally formatted data on a global scale.
-3. In the future I would like to graph some of the insights I've found. I'm particularly interested in seeing what the pattern of daily cases to daily deaths looks like. How does the relationship between the slope of an infection spike relate to the slope of the following death spike? How much does this relationship vary between variants? All things I'm curious about!
+## [Project 4: Exploring Covid Data with SQL](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_4%20Exploring%20Covid%20data%20with%20SQL) (Plan to revisit)
+The goal of this project was to use SQL to gain understanding of what Covid was doing on a global scale. Working with large and evolving data sets would return different results over time and I was interested in viewing a more unfiltered set of Covid data.
 
 ## [Project 3: Harvest Project](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_3%20Harvest%20tracking%20tool)
 The goal of this project was to create a product that will allow farmers to track multiple metrics with ease. My plan is to construct a relational database with MySQL that will flow into a Tableau dashboard. Though not currently part of this project, I am formatting the database to allow simple data entry by employees in different roles.
