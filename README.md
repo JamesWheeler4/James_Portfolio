@@ -16,7 +16,7 @@ The goal of this project was to use SQL to gain understanding of what Covid was 
 ## [Project 3: Harvest Project](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_3%20Harvest%20tracking%20tool)
 The goal of this project was to create a product that will allow farmers to track multiple metrics with ease. My plan is to construct a relational database with MySQL that will flow into a Tableau dashboard. Though not currently part of this project, I am formatting the database to allow simple data entry by employees in different roles.
 
-## Project 2: [Revising Project 1 with Python and Tableau](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_2%20Revisit%20Bellabeat%20with%20Python%20and%20Tableau)
+## [Project 2: Revising Project 1 with Python and Tableau](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_2%20Revisit%20Bellabeat%20with%20Python%20and%20Tableau)
 Having a foundation in R, moving to Python was not too challenging. Also having completed a project already, it was much easier to plan the trajectory of my data processing.
 
 ## [Project 1: Case study for Bellabeat](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_1%20Case%20study%20for%20Bellabeat)
