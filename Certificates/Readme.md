@@ -13,7 +13,8 @@
 * [Programming for Everybody (Getting Started with Python)](https://coursera.org/share/69ad88d8c472cff0430d9da8401a2cf7)
 * [Python Data Structures](https://coursera.org/share/9107466a97373be0895126fc96c63ed4)
 * [Using Python to Access Web Data](https://coursera.org/share/e9e2b286bfd8906ef01e23955fba0d88)
-* Using Databases with Python (In Progress)
+* [Using Databases with Python](https://coursera.org/share/2dd9c1e69ae2e7bab350dfafcef3f6d6)
+* Capstone: Retrieving, Processing, and Visualizing Data with Python (In Progress)
 
 ### Courses Completed via Coursera
 
