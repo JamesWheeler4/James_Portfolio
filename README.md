@@ -6,8 +6,6 @@
 
 #### Projects here are listed in reverse chronological order
 
-## [Project 5: Rebuilding Agricultural Tool](
-
 ## [Project 4: Exploring Covid Data with SQL](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_4%20Exploring%20Covid%20data%20with%20SQL) (Plan to revisit)
 The goal of this project was to use SQL to gain understanding of what Covid was doing on a global scale. Working with large and evolving data sets would return different results over time and I was interested in viewing a more unfiltered set of Covid data.
 
