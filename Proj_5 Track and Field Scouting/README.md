@@ -4,35 +4,28 @@
 
 The goal of this project is to create scouting reports for track and field teams using Python automation. 
 As a track and field athlete in community college, I was asked by the coach to work on organizing spreadsheets of possible future recruits. 
-I was tasked with searching for athletes results as well as the schools they went to. 
+I was tasked with searching for athletes' results as well as the schools they went to. 
 Looking back, this was a task that the coach would have done had I not offered my skills with excel. 
 This project is an exercise in identifying a need and creating a program to facilitate a better user experience.
 
-### **Data Storage**
+### **Database: Design and Creation**
 
-1. When initially testing the viability of this tool, I wrote the data to a list and stored that list as a .csv file to review. This worked at small scale to prove the concept, but it would not scale well.
+1. When initially testing the viability of this tool, I wrote the data to a list and stored that list as a .csv file to review. This worked at a small scale to prove the concept, but it would not scale well.
 2. To provide room for growth, I designed and created a SQLite3 database. Using a consistent table structure of 'id' as a primary key and avoiding redundant strings, the database took shape.
 3. The most up to date schema for this database can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/APDB%20Schema%2004202022.pdf) and the code used to create the database can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/APDB.py)
 
-### **Web Scraping**
+### **Web Scraping: Collection, Pre-Processing, and Storage**
 
-1. The first step of collection was to identify and extract the relevant data. This was done by inspecting data source and chart a short a path as possible to the desired information.
-2. Initially the roadblock was having to log in to access any of the relevant data. For this I turned to Selenium. Using key inputs I was able to enter the website and navigate to the desired webpages.
-3. Next was the issue of extracting the data in a sorted manner. All of the pertinent information is tagged as anchor links with limited differentiation. To work around this, I passed on using *bs4* and elected to extract the whole page, parse it as a string using regex.
+1. The first step of collection was to identify and extract the relevant data. This was done by inspecting the data source and charting as short a path as possible to the desired information.
+2. Initially the roadblock was having to log in to access any of the relevant data. For this I turned to Selenium. Using key inputs I was able to enter the website and navigate to the desired webpages.
+3. Next was the issue of extracting the data in a sorted manner. All of the pertinent information is tagged as anchor links with limited differentiation. To work around this, I passed on using *bs4* and elected to extract the whole page, parse it as a string using regex.
 4. Through this method I was able to iterate through parsed segments of the extracted source data. Along the way creating and replacing variables to store using SQLite3.
 5. Using variations on the regex parsing method, I was able to gather a considerable set of data using the following functions:
-  a. 
-7. This was tested across multiple districts and states, checking for any variance in the website, event type, or anything unforeseen.
-8. I created another gathering function that would parse through a track meet and pull the results. This varied from the first function in that the first pulled all information from one webpage (for each state). This function pulled a small amount of data from over 15 webpages per gender per meet. This variance was required because of how meet data is entered at the college level. College data was extracted using this set of [functions](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20scouting%20tool/APCollege.py).
-
-
-
-### **Data Storage and Processing**
-
-1. Before storing the data, alterations needed to be made to smooth out future analysis and organization. This was done by normalizing terminology (event names) and units of measurements (all to seconds and meters to hundredths of feet) between high school and college. Additionally to determine ascending or descending rankings, the field events (highest wins) were separated from track events (lowest wins) using a sorting indicator. This process was done in the corresponding functions shown above.
-2. Now that necessary comparison data was collected, I wrote each high school state, gender, and event type (track or field) to its own csv. These were placed in gendered folders before being globbed and appended together using this set of [functions](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20scouting%20tool/APResults.py). I arranged and renamed the high school columns to the corresponding college format before appending the college meet results onto the high school data set.
-3. Once everything was combined and properly formatted, I created a ranking and scoring function that took the top ten athletes in each event scoring the top eight as is done in a traditional championship meet. From this ranking function I returned both the top ten as well as the overall rankings for all levels gathered.
+  a. [codeGather](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/codeGather.py): This function takes state names as inputs and outputs the IDs required to visit all divisions, districts, and highschools from the given states via URL.
+  b. [topGather](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/topGather.py): Here the IDs collected with *codeGather* and a gender ID is input. The function outputs entries to the Athlete and Result table for the top ten marks for the given location ID. The supporting functions within *topGather* can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/topGatherSup.py).
+  c. [meetGather](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/meetGather.py): When looking at specific meets, this function can be used to gather the same information as *topgather* from a different displayed format. This was created to more accurately gather college level marks. Supporting functions can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/meetGatherSup.py). A cleanup function was required to compensate for inconsistent loading of the meet results webpage.
+  d. [locationGather](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/locationGather.py): To be more functional as a tool, this functions gathers location and contact information for the schools/clubs. This would in theory allow the scouting coach easy contact when evaluating the report.
+  f. [fullResultGather](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/fullResultGather.py): For a more thorough exploration of past performance, this function was created to collect past marks for specific athletes. Currently it is set to collect the past marks (back to 2014) of the top 25 performing athletes in each athlete. This function collects the athlete's complete history, allowing for a comparative look at what events may have positive or negative correlations with performance.
 
 ### **Analysis**
 
-1. Initial evaluation of the data showed very clearly that comparing community college results to top ten highschoolers per state was not a reasonable comparison. I will recreate the gathering with more samples and more compatible athletes.
