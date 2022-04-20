@@ -5,6 +5,7 @@
 **[Certifications/Courses](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Certificates)**
 
 #### Projects here are listed in reverse chronological order
+#### Full reports can be found through the project title link
 
 ## [Project 5: Track and Field Scouting Tool](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_5%20Track%20and%20Field%20Scouting)
 
