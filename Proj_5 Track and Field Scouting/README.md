@@ -12,16 +12,18 @@ This project is an exercise in identifying a need and creating a program to faci
 
 1. When initially testing the viability of this tool, I wrote the data to a list and stored that list as a .csv file to review. This worked at small scale to prove the concept, but it would not scale well.
 2. To provide room for growth, I designed and created a SQLite3 database. Using a consistent table structure of 'id' as a primary key and avoiding redundant strings, the database took shape.
-3. The most up to date schema for this database can be found [here]()
+3. The most up to date schema for this database can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/APDB%20Schema%2004202022.pdf) and the code used to create the database can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/APDB.py)
 
 ### **Web Scraping**
 
-1. The first step of this project was to identify and extract the relevant data. This was done by inspecting data source and learning the html formatting that is used to organize the data.
+1. The first step of collection was to identify and extract the relevant data. This was done by inspecting data source and chart a short a path as possible to the desired information.
 2. Initially the roadblock was having to log in to access any of the relevant data. For this I turned to Selenium. Using key inputs I was able to enter the website and navigate to the desired webpages.
 3. Next was the issue of extracting the data in a sorted manner. All of the pertinent information is tagged as anchor links with limited differentiation. To work around this, I passed on using *bs4* and elected to extract the whole page, parse it as a string using regex.
 4. Through this method I was able to iterate through parsed segments of the extracted source data. Along the way creating and replacing variables to store using SQLite3.
-5. This was tested across multiple districts and states, checking for any variance in the website, event type, or anything unforeseen.
-6. I created another gathering function that would parse through a track meet and pull the results. This varied from the first function in that the first pulled all information from one webpage (for each state). This function pulled a small amount of data from over 15 webpages per gender per meet. This variance was required because of how meet data is entered at the college level. College data was extracted using this set of [functions](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20scouting%20tool/APCollege.py).
+5. Using variations on the regex parsing method, I was able to gather a considerable set of data using the following functions:
+  a. 
+7. This was tested across multiple districts and states, checking for any variance in the website, event type, or anything unforeseen.
+8. I created another gathering function that would parse through a track meet and pull the results. This varied from the first function in that the first pulled all information from one webpage (for each state). This function pulled a small amount of data from over 15 webpages per gender per meet. This variance was required because of how meet data is entered at the college level. College data was extracted using this set of [functions](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20scouting%20tool/APCollege.py).
 
 
 
