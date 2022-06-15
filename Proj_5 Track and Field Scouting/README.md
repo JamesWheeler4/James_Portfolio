@@ -1,7 +1,5 @@
 ## Project 5: Track and Field Scouting Tool
 
-#### 95 hours as of 4/13/2022
-
 The goal of this project is to create scouting reports for track and field teams using Python automation. 
 As a track and field athlete in community college, I was asked by the coach to work on organizing spreadsheets of possible future recruits. 
 I was tasked with searching for athletes' results as well as the schools they went to. 
@@ -22,7 +20,7 @@ This project is an exercise in identifying a need and creating a program to faci
 4. Through this method I was able to iterate through parsed segments of the extracted source data. Along the way creating and replacing variables to store using SQLite3.
 5. Using variations on the regex parsing method, I was able to gather a considerable set of data using the following functions:
   
-[codeGather](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/codeGather.py): This function takes state names as inputs and outputs the IDs required to visit all divisions, districts, and highschools from the given states via URL.
+[codeGather](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/codeGather.py): This function takes state names as inputs and outputs the IDs required to visit all divisions, districts, and highschools from the given states via URL. 
   
 [topGather](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/topGather.py): Here the IDs collected with *codeGather* and a gender ID is input. The function outputs entries to the Athlete and Result table for the top ten marks for the given location ID. The supporting functions within *topGather* can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/topGatherSup.py).
   
@@ -34,4 +32,5 @@ This project is an exercise in identifying a need and creating a program to faci
 
 ### **Analysis**
 1. Currently under way is an exploration of the *fullResultGather* data. Some questions that will be asked: What correlation is there between events for each given athlete? Ex. Which is more predictive of Long Jump performance, 100m results, 200m results, or neither? Do athletes out of specific states perform better within a given even area? Ex. Do distance runners in Oregon run faster that those in Nevada? If so, by how much and how consistent is that margin between genders?
+2. Here are examples of [SQL queries]() that I have been running on the dataset.  
 
