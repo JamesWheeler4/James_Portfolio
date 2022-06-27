@@ -32,5 +32,5 @@ This project is an exercise in identifying a need and creating a program to faci
 
 ### **Analysis**
 1. Currently under way is an exploration of the *fullResultGather* data. Some questions that will be asked: What correlation is there between events for each given athlete? Ex. Which is more predictive of Long Jump performance, 100m results, 200m results, or neither? Do athletes out of specific states perform better within a given even area? Ex. Do distance runners in Oregon run faster that those in Nevada? If so, by how much and how consistent is that margin between genders?
-2. Here are examples of [SQL queries]() that I have been running on the dataset.  
+2. Here are examples of [SQL queries](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_5%20Track%20and%20Field%20Scouting/AP_SQLqueries.py) that I have been running on the dataset. 
 
