@@ -8,9 +8,6 @@
 #### Full reports can be found through the project title link
 
 ## [Project 5: Track and Field Scouting Tool](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_5%20Track%20and%20Field%20Scouting)
-
-#### 95 hours as of 4/13/2022
-
 The goal of this project is to create scouting reports for track and field teams using Python automation. As a track and field athlete in community college, I was asked by the coach to work on organizing spreadsheets of possible future recruits. I was tasked with searching for athletes' results as well as the schools they went to. Looking back, this was a task that the coach would have done had I not offered my skills with excel. This project is an exercise in identifying a need and creating a program to facilitate a better user experience.
 
 ## [Project 4: Exploring Covid Data with SQL](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_4%20Exploring%20Covid%20data%20with%20SQL) (Plan to revisit)
