@@ -1,5 +1,5 @@
 ### Certifications Completed via Coursera
-1. [Google Data Analytics](https://github.com/JamesWheeler4/James_Portfolio/commit/26c7a58ca4b4b4b9906328c90bf98eda7202e8b7)
+1. [Google Data Analytics](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Certificates/Google%20Data%20Analytics.pdf)
 * Foundations: Data, Data, Everywhere
 * Ask Questions to Make Data-Driven Decisions
 * Prepare Data for Exploration
