@@ -8,7 +8,7 @@
 #### Full reports can be found through the project title link
 
 ## [Project 5: Track and Field Scouting Tool](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_5%20Track%20and%20Field%20Scouting)
-The goal of this project is to collect and explore high school track and field data using Python. Packages used with this project include: pandas, numpy, scipy, selenium, SQLite3, plotly, as well as datetime, time, re, and csv. While discussing the project with the stakeholder, they were curious about the correlations between events.
+The goal of this project is to collect and explore high school track and field data using Python. Packages used with this project include: pandas, numpy, scipy, selenium, SQLite3, plotly, as well as datetime, time, re, and csv.
 
 ## [Project 4: Exploring Covid Data with SQL](https://github.com/JamesWheeler4/James_Portfolio/tree/main/Proj_4%20Exploring%20Covid%20data%20with%20SQL) (Plan to revisit)
 The goal of this project was to use SQL to gain understanding of what Covid was doing on a global scale. Working with large and evolving data sets would return different results over time and I was interested in viewing a more unfiltered set of Covid data.
