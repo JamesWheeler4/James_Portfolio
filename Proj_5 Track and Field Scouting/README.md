@@ -1,4 +1,4 @@
-## Project 5: Track and Field Scouting Tool
+## Project 5: Track and Field Tool
 
 The goal of this project is to collect and explore high school track and field data using Python. Packages used with this project include: pandas, numpy, scipy, selenium, SQLite3, plotly, as well as datetime, time, re, and csv. While discussing the project with the stakeholder, they were curious about the correlations between events. As in, does a fast mark in the 100 meter influence how well the athlete will pole vault? They asked to view these correlations from a macro level then drill down to see rough comparisons between states within their recruiting sphere. The initial reports can be found in section 4 of Analysis within this project.  
 
