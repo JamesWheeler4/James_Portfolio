@@ -23,3 +23,9 @@
 2. [Introduction to Relational Database and SQL](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Certificates/Introduction%20to%20Relational%20Database%20and%20SQL.pdf)
 
 3. [Intermediate Relational Database and SQL](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Certificates/Intermediate%20Relational%20Database%20and%20SQL.pdf)
+
+### Courses Completed via LinkedIn Learning
+
+1. [Learning Google Tag Manager](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Certificates/Learning%20Google%20Tag%20Manager.pdf)
+
+2. [Google Analytics 4 GA4 Essential Training](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Certificates/Google%20Analytics%204%20GA4%20Essential%20Training.pdf)
