@@ -10,10 +10,10 @@
 * Google Data Analytics Captstone: Complete a Case Study
 
 2. Python for Everybody Specialization via University of Michigan
-* [Programming for Everybody (Getting Started with Python)](https://coursera.org/share/69ad88d8c472cff0430d9da8401a2cf7)
-* [Python Data Structures](https://coursera.org/share/9107466a97373be0895126fc96c63ed4)
-* [Using Python to Access Web Data](https://coursera.org/share/e9e2b286bfd8906ef01e23955fba0d88)
-* [Using Databases with Python](https://coursera.org/share/2dd9c1e69ae2e7bab350dfafcef3f6d6)
+* [Programming for Everybody (Getting Started with Python)]([https://coursera.org/share/69ad88d8c472cff0430d9da8401a2cf7](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Certificates/Programming%20for%20Everybody.pdf))
+* [Python Data Structures]([https://coursera.org/share/9107466a97373be0895126fc96c63ed4](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Certificates/Python%20Data%20Structures.pdf))
+* [Using Python to Access Web Data]([https://coursera.org/share/e9e2b286bfd8906ef01e23955fba0d88](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Certificates/Using%20Python%20to%20Access%20Web%20Data.pdf))
+* [Using Databases with Python]([https://coursera.org/share/2dd9c1e69ae2e7bab350dfafcef3f6d6](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Certificates/Using%20Databases%20with%20Python.pdf))
 * Capstone: Retrieving, Processing, and Visualizing Data with Python (In Progress)
 
 ### Courses Completed via Coursera
