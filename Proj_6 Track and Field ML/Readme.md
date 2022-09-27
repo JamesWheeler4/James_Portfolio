@@ -18,3 +18,11 @@ The goal of this project was to create a track and field ‘PR’ prediction too
 2. The script is created in a way that through the modification of the “multiple” variable, you can choose how many output entries are created from each input entry. I chose a multiple of 10 which turns a 300 entry dataset into a 3300 entry dataset while maintaining similar characteristics and qualities.
 3. To avoid feeding the model repeated datasets I introduced a jitter that randomly ranged within +/- 0.5% for each given point, resorting the points as needed to retain formatting. 
 4. In this script you can see the creation of my jitterBug function, processing the multiplication of the data, and saving the data as a new .csv. The script can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_6%20Track%20and%20Field%20ML/python/ML_Data_Fab.py).
+
+### **Creating GUI and Calling Models**
+1. These saved models aren’t very useful sitting as files so I created a GUI that allows a user to select an event and enter an athlete's top marks. The model for the selected event is called forward and the marks are passed through the model, returning what would likely be the athlete’s next PR.
+2. Starting with the GUI, I planned a rough structure, created the appropriate labels, entries and buttons, and experimented with placement. 
+3. Adding function to the buttons and entries required gathering event names and normalizing factors for each dataset. This allowed the model to ingest data the same way it had been trained. Having these dictionaries paired to their respective locations, it's possible to pass entries through the model which returns a prediction.
+4. To increase accessibility, I provide a calculator that allows a user to convert minutes/seconds to seconds which the model takes in. Likewise, if the outputs are over 70 seconds, they are provided in both second and minute/second formats.
+5. The script that runs this GUI can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_6%20Track%20and%20Field%20ML/python/ML_Tracki_GUI.py) and a image of the GUI can be found [here](https://github.com/JamesWheeler4/James_Portfolio/blob/main/Proj_6%20Track%20and%20Field%20ML/images/ML_Track_GUI.png).
+
