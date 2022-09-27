@@ -18,7 +18,7 @@ for event in events:
     mark_count = 4
     title = gender + '_' + event_name
 
-    path = fr'C:\Users\15037\PycharmProjects\PythonForEveryone\AthleticProject\ML_data\Top_{mark_count}_Marks'
+    path = fr'C:\...\AthleticProject\ML_data\Top_{mark_count}_Marks'
 
     cur.execute('''SELECT DISTINCT athlete_id FROM Full_Result WHERE event_id = ?''', (event_id, ))
     athletes = cur.fetchall()  #
