@@ -7,10 +7,10 @@ from tensorflow import keras
 from tensorflow.keras import layers
 
 # Collecting data
-path_10 = r'C:\Users\15037\PycharmProjects\PythonForEveryone\AthleticProject\ML_data\Top_10_Marks'
-path_6 = r'C:\Users\15037\PycharmProjects\PythonForEveryone\AthleticProject\ML_data\Top_6_Marks'
-path_4 = r'C:\Users\15037\PycharmProjects\PythonForEveryone\AthleticProject\ML_data\Top_4_Marks'
-path_multi = r'C:\Users\15037\PycharmProjects\PythonForEveryone\AthleticProject\ML_data_multi_track_2'
+path_10 = r'C:\...\AthleticProject\ML_data\Top_10_Marks'
+path_6 = r'C:\...\AthleticProject\ML_data\Top_6_Marks'
+path_4 = r'C:\...\AthleticProject\ML_data\Top_4_Marks'
+path_multi = r'C:\...\AthleticProject\ML_data_multi_track_2'
 
 glob_10 = glob.glob(path_10 + '\*.csv')
 glob_6 = glob.glob(path_6 + '\*.csv')
